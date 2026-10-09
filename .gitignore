@@ -1,0 +1,26 @@
+
+# Environment and secret configuration
+.env
+.env.*
+!.env.example
+
+# Database backups and dumps
+*.sql
+*.sql.gz
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+
+# Dependencies (if applicable)
+vendor/
+node_modules/
